@@ -43,12 +43,6 @@
 //   res.send(`Hey it's a DELETE ID ${userId}`);
 // });
 
-
-// module.exports = router;
-
-
-
-
 // /* DELETE user with ID. */
 // // écoute de l'url "/users/"
 // router.delete('/:id(\\d+)', (req, res) => {
@@ -57,8 +51,16 @@
 //   res.send(`Hey it's a DELETE ID ${userId}`);
 // });
 
-var express = require('express');
-var router = express.Router();
+
+// * * * * * * * * * * * * * * * * * * * //
+//                                       //
+// * * * * CAN I PUT SOME DELETE * * * * //
+//                                       //
+// * * * * * * * * * * * * * * * * * * * //
+
+
+const express = require('express');
+const router = express.Router();
 
 // Tu vas devoir créer :
 
